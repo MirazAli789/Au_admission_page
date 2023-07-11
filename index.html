@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aliah Admission</title>
+</head>
+
+<body>
+    <h3>UG Admission</h3>
+    <a href="https://aliah.ac.in/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRye6jrWAdjGZFt8DpWpk13K3WCWwGBGjUvChKf5uQ_&s"
+        height="114" alt="logo"></a>
+    <a href="https://aliah.ac.in/aliah-university-admission-test">UG admission</a>
+    <h4>Enter the following informations</h4>
+    <form action="backend.php" method="post" enctype="multipart/form-data">
+
+        <div>
+            Name: <input type="text" name="myname">
+        </div>
+        <br>
+        <div>
+            Father's Name: <input type="text" name="mynahr">
+        </div>
+        <br>
+        <div>
+            D.O.B: <input type="date">
+        </div>
+        <br>
+        <div>
+            Contact number: <input type="number" name="mynum">
+        </div>
+        <br>
+        <div>
+            Email ID: <input type="email">
+        </div>
+        <div>
+            <br>
+            Write about yourself:
+            <textarea name="mytext" id="mytext" cols="10" rows="3"></textarea>
+        </div>
+        <br>
+        <div>
+            Gender:
+            Male<input type="radio" name="mygen">
+            Female<input type="radio" name="mygen">
+            Other<input type="radio" name="mygen">
+        </div>
+        <br>
+        <div>
+            State:
+            <select name="state" id="mystate">
+                <option value="mystate" selected>West Bengal</option>
+                <option value="mystate">Jahrkhand</option>
+                <option value="mystate">Bihar</option>
+                <option value="mystate">Tamil Nadu</option>
+                <option value="mystate">Andhra Pradesh</option>
+                <option value="mystate">Arunachal Pradesh</option>
+                <option value="mystate">Gujarat</option>
+                <option value="mystate">Goa</option>
+                <option value="mystate">Maharashtra</option>
+                <option value="mystate">Kearla</option>
+                <option value="mystate">Punjab</option>
+                <option value="mystate">Rajasthan</option>
+                <option value="mystate">Telengana</option>
+
+
+            </select>
+        </div>
+        <br>
+        <div>
+            Caste:
+            <select name="caste" id="mycaste">
+                <option value="mycaste" selected>General</option>
+                <option value="mycaste">SC</option>
+                <option value="mycaste">ST</option>
+                <option value="mycaste">OBC A</option>
+                <option value="mycaste">OBC B</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            District: <input type="text">
+
+        </div>
+        <br>
+        <div>
+            PO: <input type="text">
+            <br>
+            <br>
+            PS: <input type="text">
+
+        </div>
+        <br>
+        <div>
+            Identity Type:
+            <select name="identity" id="myidentity">
+                <option value="myidentity" selected>Adhaar</option>
+                <option value="myidentity">PAN</option>
+                <option value="myidentity">Driving License</option>
+                <option value="myidentity">Passport</option>
+                <option value="myidentity">Voter Id</option>
+                <option value="myidentity">Others</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Enter ID number<input type="text">
+        </div>
+        <br>
+        <div>
+            Upload image(jpg/png Max size: 2Mb)
+            <br>
+            <br>
+            <input type="file" name="fileToUpload" id="fileToUpload">
+            <br>
+            <input type="submit" value="Upload Image" name="submit">
+        </div>
+        <br>
+        <div>
+            Upload Class 12th marksheet(jpg/png/pdf Max size: 2Mb)
+            <br>
+            <input type="file" name="upload" id="upload">
+            <br>
+            <input type="submit" name="upload marksheet" id="submit">
+        </div>
+        <br>
+        <br>
+        <hr>
+        <div>
+            <input type="submit" name="please submit" id="submitt">
+            <br>
+            <input type="reset" name="reset now">
+
+        </div>
+
+
+
+
+    </form>
+</body>
+
+</html>
